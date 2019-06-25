@@ -23,7 +23,9 @@ defmodule ExScraper.MixProject do
   defp deps do
     [
       {:floki, "~> 0.21.0"},
-      {:flow, "~> 0.14.3"}
+      {:flow, "~> 0.14.3"},
+      {:castore, "~> 0.1.0"},
+      {:mint, "~> 0.2.0"}
     ]
   end
 end
